@@ -37,6 +37,8 @@ devtools::check("wolberg-std-lib", document=T)
 devtools::install("wolberg-std-lib")
 ```
 
+TODO: figure out how to format and document data per https://r-pkgs.org/data.html#sec-data-data
+
 # Connecting to miscellaneous PostgreSQL databases
 Requires packages ```DBI``` and ```RPostgres```, which aren't loaded by ```wolberg```.
 
