@@ -1,0 +1,21 @@
+Package: wolberg
+Type: Package
+Title: Useful Functions
+Version: 0.1
+Date: 2023-03-22
+Author: Akiva Wolberg
+Maintainer: Akiva Wolberg <awolberg@workingamerica.org>
+Description: Useful tools for working with voter data.
+License: GPL-3
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+Depends:
+  data.table,
+  tidyr,
+  dplyr,
+  glue
+Imports:
+  DBI,
+  magrittr,
+  utils,
+  yaml
